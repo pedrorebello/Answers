@@ -10,7 +10,7 @@ The application consists of a page with list of all questions made, a page where
 
 ![Web 1](https://github.com/pedrorebello/answers/blob/main/assets/scr-home.png)
 
-![Web 2](https://github.com/pedrorebello/answers/blob/main/assets/scr-ask.png)
+![Web 2](https://github.com/pedrorebello/answers/blob/main/assets/scr-ask.PNG)
 
 ![Web 3](https://github.com/pedrorebello/answers/blob/main/assets/scr-question.png)
 
