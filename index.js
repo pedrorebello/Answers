@@ -97,4 +97,17 @@ app.post("/answer", (req, res) => {
     });
 });
 
+// this one should not be a get... fix that by the end of next project
+app.get("/reset", (req, res) => {
+    Answer.destroy({
+        truncate: true
+    }).then(() => {
+        Question.destroy({
+            truncate: true
+        }).then(() => {
+            res.redirect("/");
+        }); 
+    });
+});
+
 app.listen(8080, () => {console.log("App is running.")});

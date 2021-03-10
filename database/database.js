@@ -1,8 +1,8 @@
 const Sequelize = require('sequelize');
-const CREDENTIALS = require('credentials');
+const CREDENTIALS = require('./credentials');
 
-const connection = new Sequelize('answers', 'CREDENTIALS.SQL_USER', 'CREDENTIALS.SQL_PASS', {
-    host: 'localhost',
+const connection = new Sequelize(CREDENTIALS.DB, CREDENTIALS.USER, CREDENTIALS.PASSWORD, {
+    host: CREDENTIALS.HOST,
     dialect: 'mysql'
 });
 

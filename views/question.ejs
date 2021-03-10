@@ -16,14 +16,16 @@
         </form>
         <hr>
         <h3>Answers</h3>
-        <% answers.forEach(element => { %> 
-            <br>
-            <div class="card">
-                <div class="card-body">
-                    <p><%= element.body %></p>
+        <% if(answers != undefined) { 
+            answers.forEach(element => { %> 
+                <br>
+                <div class="card">
+                    <div class="card-body">
+                        <p><%= element.body %></p>
+                    </div>
                 </div>
-            </div>
-        <% }); %> 
+            <% }
+        )}; %> 
     </div>
 </body>
 <%- include('./partials/footer.ejs') %> 
