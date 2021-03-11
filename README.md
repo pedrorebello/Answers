@@ -8,11 +8,11 @@ The application consists of a page with list of all questions made, a page where
 
 ## Web Layout
 
-![Web 1](https://github.com/pedrorebello/answers/blob/main/assets/scr-home.png)
+![Web 1](https://github.com/pedrorebello/answers/blob/main/assets/scr1-home.png)
 
-![Web 2](https://github.com/pedrorebello/answers/blob/main/assets/scr-ask.PNG)
+![Web 2](https://github.com/pedrorebello/answers/blob/main/assets/scr2-ask.png)
 
-![Web 3](https://github.com/pedrorebello/answers/blob/main/assets/scr-question.png)
+![Web 3](https://github.com/pedrorebello/answers/blob/main/assets/scr3-question.png)
 
 ## Conceptual model
 
